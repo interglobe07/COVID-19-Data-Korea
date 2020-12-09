@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[   1005626,      24036]
-NotebookOptionsPosition[   1003258,      23989]
-NotebookOutlinePosition[   1003654,      24005]
-CellTagsIndexPosition[   1003611,      24002]
+NotebookDataLength[   1007254,      24082]
+NotebookOptionsPosition[   1004382,      24025]
+NotebookOutlinePosition[   1004778,      24041]
+CellTagsIndexPosition[   1004735,      24038]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -12664,8 +12664,9 @@ epidemic in Korea\"", TraditionalForm], PlotRange -> Full}],
                     0.4731986666666667], FrameTicks -> None, PlotRangePadding -> 
                     None, ImageSize -> 
                     Dynamic[{
-                    Automatic, 1.35 CurrentValue["FontCapHeight"]/
-                    AbsoluteCurrentValue[Magnification]}]], 
+                    Automatic, 
+                    1.35 (CurrentValue["FontCapHeight"]/AbsoluteCurrentValue[
+                    Magnification])}]], 
                     StyleBox[
                     RowBox[{"RGBColor", "[", 
                     RowBox[{"0.368417`", ",", "0.506779`", ",", "0.709798`"}],
@@ -12716,8 +12717,9 @@ epidemic in Korea\"", TraditionalForm], PlotRange -> Full}],
                    FrameStyle -> GrayLevel[0.2], FrameTicks -> None, 
                    PlotRangePadding -> None, ImageSize -> 
                    Dynamic[{
-                    Automatic, 1.35 CurrentValue["FontCapHeight"]/
-                    AbsoluteCurrentValue[Magnification]}]], 
+                    Automatic, 
+                    1.35 (CurrentValue["FontCapHeight"]/AbsoluteCurrentValue[
+                    Magnification])}]], 
                   StyleBox[
                    RowBox[{"GrayLevel", "[", "0.3`", "]"}], NumberMarks -> 
                    False]], Appearance -> None, BaseStyle -> {}, 
@@ -23915,14 +23917,12 @@ Cell["Reference", "Section",
   3.8158631547174616`*^9}},ExpressionUUID->"00541752-72a6-4c18-9dd2-\
 dcd843984058"],
 
-Cell["\<\
-Ministry of Economy and Finance, \[OpenCurlyDoubleQuote]Tackling COVID-19: \
-Health, Quarantine and Economic Measures of South Korea\
-\[CloseCurlyDoubleQuote], Ministry of Economy and Finance, South Korea\
-\>", "Text",
- CellChangeTimes->{{3.8158631657637463`*^9, 
-  3.815863235725457*^9}},ExpressionUUID->"2dbb2e09-b4d0-4a27-b918-\
-271234b8d346"],
+Cell[CellGroupData[{
+
+Cell["Journals", "Subsection",
+ CellChangeTimes->{{3.816524125027238*^9, 
+  3.816524129987075*^9}},ExpressionUUID->"0d443dec-905a-42a1-a62e-\
+50da300375c3"],
 
 Cell["\<\
 Amy Dighe et al, \[OpenCurlyDoubleQuote]Response to COVID - 19 in South Korea \
@@ -23932,6 +23932,35 @@ BMC Medicine (2020) 13:321 (https://doi.org/10.1186/s12916-020-01791-8)\
  CellChangeTimes->{{3.81586328109309*^9, 
   3.8158633488921576`*^9}},ExpressionUUID->"2ee46d2c-635f-4092-ba42-\
 4711cf70acec"],
+
+Cell["\<\
+Juhwan Oh, Jong-Koo Lee, Dan Schwarz d, Hannah L. Ratcliffe, Jeffrey F. \
+Markuns,
+and Lisa R. Hirschhorn, \"National Response to COVID-19 in the Republic of \
+Korea and Lessons Learned for Other Countries\[CloseCurlyDoubleQuote], HEALTH \
+SYSTEMS & REFORM 2020, VOL. 6, NO. 1, e1753464 \
+(https://doi.org/10.1080/23288604.2020.1753464)\
+\>", "Text",
+ CellChangeTimes->{{3.81600778151201*^9, 3.816007862720648*^9}, 
+   3.8165241897855453`*^9},ExpressionUUID->"8ab048bb-85f2-47bd-9950-\
+c134f6e081f3"],
+
+Cell["\<\
+Victor Cha and Dana Kim, \[OpenCurlyDoubleQuote]A Timeline of South Korea\
+\[CloseCurlyQuote]s Response to COVID-19\[CloseCurlyDoubleQuote], CSIS \
+Newsletter, 2020 March 27\
+\>", "Text",
+ CellChangeTimes->{{3.816095919061904*^9, 3.8160959757014327`*^9}, 
+   3.8161050057154894`*^9},ExpressionUUID->"44c189d1-fa0c-4839-b0c1-\
+5a46e710e4ed"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Newspapers", "Subsection",
+ CellChangeTimes->{{3.8165241400668516`*^9, 
+  3.8165241444183908`*^9}},ExpressionUUID->"9feae2b0-1ebe-4728-aeb8-\
+32f96147d49b"],
 
 Cell["\<\
 Chad Terhune, Dan Levine, Hyunjoo Jin, Jane Lanhee Lee, \
@@ -23961,29 +23990,36 @@ Flattened the Curve\[CloseCurlyDoubleQuote], The New York Times, March 23, \
 \>", "Text",
  CellChangeTimes->{{3.8159523297455826`*^9, 
   3.8159523586041136`*^9}},ExpressionUUID->"0553b8de-296b-4050-a429-\
-896b02e279b0"],
+896b02e279b0"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Government agencies", "Subsection",
+ CellChangeTimes->{{3.8165241806345778`*^9, 
+  3.816524183458065*^9}},ExpressionUUID->"a73314e5-7e8d-4934-8f5a-\
+e99e342a3ab3"],
 
 Cell["\<\
-Juhwan Oh, Jong-Koo Lee, Dan Schwarz d, Hannah L. Ratcliffe, Jeffrey F. \
-Markuns,
-and Lisa R. Hirschhorn, \"National Response to COVID-19 in the Republic of \
-Korea and Lessons Learned for Other Countries\[CloseCurlyDoubleQuote], HEALTH \
-SYSTEMS & REFORM 2020, VOL. 6, NO. 1, e1753464 \
-(https://doi.org/10.1080/23288604.2020.1753464)
-\
+Ministry of Economy and Finance, \[OpenCurlyDoubleQuote]Tackling COVID-19: \
+Health, Quarantine and Economic Measures of South Korea\
+\[CloseCurlyDoubleQuote], Ministry of Economy and Finance, South Korea, March \
+26, 2020\
 \>", "Text",
- CellChangeTimes->{{3.81600778151201*^9, 
-  3.816007862720648*^9}},ExpressionUUID->"8ab048bb-85f2-47bd-9950-\
-c134f6e081f3"],
+ CellChangeTimes->{{3.8158631657637463`*^9, 3.815863235725457*^9}, {
+  3.8165242063934364`*^9, 3.8165242100180206`*^9}, {3.8165243840234785`*^9, 
+  3.8165243845685053`*^9}},ExpressionUUID->"2dbb2e09-b4d0-4a27-b918-\
+271234b8d346"],
 
 Cell["\<\
-Victor Cha and Dana Kim, \[OpenCurlyDoubleQuote]A Timeline of South Korea\
-\[CloseCurlyQuote]s Response to COVID-19\[CloseCurlyDoubleQuote], CSIS \
-Newsletter, 2020 March 27\
+Korea Disease Control and Prevention Agency (KDCA), Press Release \
+(http://www.kdca.go.kr/board/board.es?mid=a30402000000&bid=0030)\
 \>", "Text",
- CellChangeTimes->{{3.816095919061904*^9, 3.8160959757014327`*^9}, 
-   3.8161050057154894`*^9},ExpressionUUID->"44c189d1-fa0c-4839-b0c1-\
-5a46e710e4ed"]
+ CellChangeTimes->{{3.8165242159458413`*^9, 3.816524271432901*^9}, {
+  3.81652448067916*^9, 
+  3.816524484263134*^9}},ExpressionUUID->"0f71e675-a52b-45e0-941f-\
+f5de006fd812"]
+}, Open  ]]
 }, Open  ]]
 }, Open  ]]
 },
@@ -24015,27 +24051,37 @@ Cell[CellGroupData[{
 Cell[34294, 757, 160, 3, 67, "Section",ExpressionUUID->"38825ca0-cb4f-4a90-990e-ed9f30900e72"],
 Cell[CellGroupData[{
 Cell[34479, 764, 1022, 22, 86, "Input",ExpressionUUID->"ecf402a2-23f8-4675-9565-3c45d4201ff2"],
-Cell[35504, 788, 502743, 11979, 964, "Output",ExpressionUUID->"3f8ae346-de5a-443c-b584-89fb2cef0542"]
+Cell[35504, 788, 502789, 11981, 97, "Output",ExpressionUUID->"3f8ae346-de5a-443c-b584-89fb2cef0542"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[538284, 12772, 1269, 28, 105, "Input",ExpressionUUID->"60b91388-ddf2-4f0d-b2f6-be70d0c47f26"],
-Cell[539556, 12802, 454397, 10953, 651, "Output",ExpressionUUID->"d43112aa-eb2f-4d98-ac0b-6819951219c8"]
+Cell[538330, 12774, 1269, 28, 105, "Input",ExpressionUUID->"60b91388-ddf2-4f0d-b2f6-be70d0c47f26"],
+Cell[539602, 12804, 454397, 10953, 651, "Output",ExpressionUUID->"d43112aa-eb2f-4d98-ac0b-6819951219c8"]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[994002, 23761, 197, 3, 67, "Section",ExpressionUUID->"8da79d00-85bc-4c62-9084-b6389eade4c4"],
-Cell[994202, 23766, 5750, 132, 188, "Text",ExpressionUUID->"87921dd4-ea3e-476f-8dc9-53238a436e5a"],
-Cell[999955, 23900, 312, 7, 34, "Text",ExpressionUUID->"31f6d19a-6deb-476e-8400-f42e88f48b8a"]
+Cell[994048, 23763, 197, 3, 67, "Section",ExpressionUUID->"8da79d00-85bc-4c62-9084-b6389eade4c4"],
+Cell[994248, 23768, 5750, 132, 188, "Text",ExpressionUUID->"87921dd4-ea3e-476f-8dc9-53238a436e5a"],
+Cell[1000001, 23902, 312, 7, 34, "Text",ExpressionUUID->"31f6d19a-6deb-476e-8400-f42e88f48b8a"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[1000304, 23912, 156, 3, 67, "Section",ExpressionUUID->"00541752-72a6-4c18-9dd2-dcd843984058"],
-Cell[1000463, 23917, 356, 7, 56, "Text",ExpressionUUID->"2dbb2e09-b4d0-4a27-b918-271234b8d346"],
-Cell[1000822, 23926, 382, 7, 56, "Text",ExpressionUUID->"2ee46d2c-635f-4092-ba42-4711cf70acec"],
-Cell[1001207, 23935, 438, 8, 56, "Text",ExpressionUUID->"867b5c1f-998a-495e-a2fd-30f5bdc23819"],
-Cell[1001648, 23945, 431, 9, 56, "Text",ExpressionUUID->"e84b679d-d41e-41e5-98c3-530c2a849339"],
-Cell[1002082, 23956, 306, 7, 34, "Text",ExpressionUUID->"0553b8de-296b-4050-a429-896b02e279b0"],
-Cell[1002391, 23965, 486, 11, 100, "Text",ExpressionUUID->"8ab048bb-85f2-47bd-9950-c134f6e081f3"],
-Cell[1002880, 23978, 350, 7, 34, "Text",ExpressionUUID->"44c189d1-fa0c-4839-b0c1-5a46e710e4ed"]
+Cell[1000350, 23914, 156, 3, 67, "Section",ExpressionUUID->"00541752-72a6-4c18-9dd2-dcd843984058"],
+Cell[CellGroupData[{
+Cell[1000531, 23921, 156, 3, 53, "Subsection",ExpressionUUID->"0d443dec-905a-42a1-a62e-50da300375c3"],
+Cell[1000690, 23926, 382, 7, 56, "Text",ExpressionUUID->"2ee46d2c-635f-4092-ba42-4711cf70acec"],
+Cell[1001075, 23935, 510, 10, 78, "Text",ExpressionUUID->"8ab048bb-85f2-47bd-9950-c134f6e081f3"],
+Cell[1001588, 23947, 350, 7, 34, "Text",ExpressionUUID->"44c189d1-fa0c-4839-b0c1-5a46e710e4ed"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[1001975, 23959, 162, 3, 53, "Subsection",ExpressionUUID->"9feae2b0-1ebe-4728-aeb8-32f96147d49b"],
+Cell[1002140, 23964, 438, 8, 56, "Text",ExpressionUUID->"867b5c1f-998a-495e-a2fd-30f5bdc23819"],
+Cell[1002581, 23974, 431, 9, 56, "Text",ExpressionUUID->"e84b679d-d41e-41e5-98c3-530c2a849339"],
+Cell[1003015, 23985, 306, 7, 34, "Text",ExpressionUUID->"0553b8de-296b-4050-a429-896b02e279b0"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[1003358, 23997, 169, 3, 53, "Subsection",ExpressionUUID->"a73314e5-7e8d-4934-8f5a-e99e342a3ab3"],
+Cell[1003530, 24002, 477, 9, 56, "Text",ExpressionUUID->"2dbb2e09-b4d0-4a27-b918-271234b8d346"],
+Cell[1004010, 24013, 332, 7, 56, "Text",ExpressionUUID->"0f71e675-a52b-45e0-941f-f5de006fd812"]
+}, Open  ]]
 }, Open  ]]
 }, Open  ]]
 }
